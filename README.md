@@ -15,12 +15,12 @@ $ npm install --save @fakerjs/integer
 ## Usage
 
 ```js
-import fakeInteger from '@fakerjs/integer';
+import integer from '@fakerjs/integer';
 
-fakeInteger();
+integer();
 //=> 1109494507128900
 
-fakeInteger(0, 10);
+integer({min: 0, max: 10});
 //=> 5
 ```
 

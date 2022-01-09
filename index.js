@@ -1,10 +1,7 @@
-export default function fakeInteger(min, max) {
-    if (min === undefined) {
-        min = Number.MIN_SAFE_INTEGER;
-    }
-    if (max === undefined) {
-        max = Number.MAX_SAFE_INTEGER;
-    }
+export default function integer(options) {
+    options = options || {};
+    let max = options.max === undefined ? Number.MAX_SAFE_INTEGER : options.max;
+    let min = options.min === undefined ? Number.MIN_SAFE_INTEGER : options.min;
     if (typeof min !== 'number' || typeof max !== 'number') {
 		throw new TypeError('Expected all arguments to be numbers.');
 	}

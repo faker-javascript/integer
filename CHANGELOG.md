@@ -1,3 +1,10 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/faker-javascript/integer) (2022-01-09)
+
+### BREAKING CHANGES
+
+* New function `integer` istead of `fakeInteger`
+
 <a name="1.0.1"></a>
 # [1.0.1](https://github.com/faker-javascript/integer) (2022-01-08)
 * Package fixes
