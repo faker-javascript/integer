@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/integer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Integer package provides functionality to generate a fake integer value.",
   "license": "MIT",
   "repository": "faker-javascript/integer",

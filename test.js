@@ -1,6 +1,6 @@
 import integer from './index.js';
 import test from 'ava';
-/*
+
 test('integer return type to be number', t => {
 	t.is(typeof integer(), 'number');
 });
@@ -24,7 +24,7 @@ test('integer with string to thow error on string', t => {
 
 	t.is(error.message, 'Expected all arguments to be numbers.');
 });
-*/
+
 test('integer with string to thow error on min > max', t => {
 	const error = t.throws(() => {
 		  integer({min: 10, max: 0})
