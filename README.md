@@ -9,8 +9,14 @@ Integer package provides functionality to generate a fake integer value.
 
 ## Install
 
+npm
 ```
-$ npm install --save @fakerjs/integer
+npm install @fakerjs/integer --save-dev
+```
+
+yarn
+```
+yarn add @fakerjs/integer -D
 ```
 
 ## Usage
